@@ -19,7 +19,7 @@ const OptionMenu = (props) =>{
         let options = props.options;
         for (var i = 0; i < options.length; i++) {
             if (index === i) {
-              if (index === options.length - 1) {
+              if (index === options.length) {
                 const open = false;
                 setOpen(open);
               } else {
